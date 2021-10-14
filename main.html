@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <title>Mani Pradeep Blog</title>
+    <link rel="stylesheet" href="MP.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,600&display=swap" 
+rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" 
+    integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>    
+<body>
+    <section class="header">
+        <nav>
+            <a href="main.html"><img src = "images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-window-close-o" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    <div class="text-box">
+        <h1>Hello! Welcome</h1>
+        <h2>I am Mani Pradeep</h2>
+        <p>one of a kind, task-driven individual. Always in the process of
+			exploring depths and digging deep to find treasures. <br> <b> 3 years as a 
+			t1d, loving and embracing my broken pancreas.</b> <br>Fighting just to survive
+			each day with happiness and joy. Proficient in handling stuff and taking
+			leadership. <br>On a journey to overcome self doubt and unlock my full potential,
+			by keeping major space for self love in my life.</p><br>
+
+            <p>You can always get in touch with me by tapping below</p>
+            <div class = "social-links">
+                <a href = "https://www.instagram.com/_im_prince_pradeep"><i class = "fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/manipradeep88"><i class = "fab fa-linkedin"></i></a>
+                <a href = "https://twitter.com/manipradeep8188"><i class = "fab fa-twitter"></i></a>
+                <a href = "https://www.facebook.com/manipradeep.88"><i class = "fab fa-facebook"></i></a>
+                </div>
+            <span>with <i class="fa fa-heart-o"></i>MP</span>
+    </div>
+    </section>
+
+</section>
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+</body>
+</html>
